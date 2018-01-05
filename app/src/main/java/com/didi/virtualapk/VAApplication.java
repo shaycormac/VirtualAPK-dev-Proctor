@@ -8,7 +8,7 @@ import android.util.Log;
  * Created by renyugang on 16/8/10.
  */
 public class VAApplication extends Application {
-
+//测试
     @Override
     protected void attachBaseContext(Context base) {
         super.attachBaseContext(base);
