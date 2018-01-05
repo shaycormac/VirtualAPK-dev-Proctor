@@ -14,6 +14,9 @@ public class VAApplication extends Application {
         super.attachBaseContext(base);
         long start = System.currentTimeMillis();
         PluginManager.getInstance(base).init();
+        //test show dev a
+        //2.0 tag
+        //3.0tag
         Log.d("ryg", "use time:" + (System.currentTimeMillis() - start));
     }
 
